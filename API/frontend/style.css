@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  margin: 30px;
+  background: #f8f8f8;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

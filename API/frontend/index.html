@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Livros</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Catálogo de Livros</h1>
+
+  <form id="livroForm">
+    <input type="text" id="titulo" placeholder="Título" required />
+    <input type="text" id="autor" placeholder="Autor" required />
+    <input type="number" id="preco" placeholder="Preço" step="0.01" required />
+    <button type="submit">Adicionar Livro</button>
+  </form>
+
+  <h2>Lista de Livros:</h2>
+  <ul id="listaLivros"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
